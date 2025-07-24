@@ -186,7 +186,6 @@ const InvoiceForm = () => {
       </div>
 
       <div className="mt-6 p-4 bg-gray-100 rounded shadow-sm w-full">
-        <h3 className="text-lg font-semibold mb-2">Summary</h3>
         <p>Total Quantity: {summary.quantity}</p>
         <p>Actual Amount: ${summary.actualAmount}</p>
         <p>Discount Amount: ${summary.discountAmount}</p>
